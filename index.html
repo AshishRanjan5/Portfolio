@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashish Ranjan — Software Engineer & AI Systems Architect</title>
+  <meta name="description" content="Ashish Ranjan — Senior Software Engineer with 5+ years building distributed AI systems, LLM platforms, and high-throughput microservices on Azure, GCP, and OpenShift." />
+  <meta property="og:title" content="Ashish Ranjan — Portfolio" />
+  <meta property="og:description" content="Senior Software Engineer | AI Systems | Distributed Backends" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- ═══════════════ NAV ═══════════════ -->
+  <nav id="navbar">
+    <a class="nav-logo" href="#hero">AR</a>
+    <ul class="nav-links">
+      <li><a href="#summary">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#summary" onclick="closeMobileMenu()">About</a>
+    <a href="#experience" onclick="closeMobileMenu()">Experience</a>
+    <a href="#skills" onclick="closeMobileMenu()">Skills</a>
+    <a href="#education" onclick="closeMobileMenu()">Education</a>
+    <a href="#awards" onclick="closeMobileMenu()">Awards</a>
+    <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+  </div>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section id="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Available for opportunities
+      </div>
+      <h1 class="hero-name">Ashish Ranjan</h1>
+      <p class="hero-title-static">Senior Software Engineer · AI Systems Architect</p>
+      <p class="hero-typewriter" id="typewriter"><span class="cursor"></span></p>
+      <div class="hero-cta">
+        <a href="https://www.linkedin.com/in/ranjan855/" target="_blank" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/AshishRanjan5" target="_blank" class="btn btn-ghost">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          GitHub
+        </a>
+        <a href="mailto:ranjanashish855@gmail.com" class="btn btn-ghost">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+          Email Me
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-number">5+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">3</div>
+          <div class="stat-label">Companies</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">10+</div>
+          <div class="stat-label">AI Projects</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">8.51</div>
+          <div class="stat-label">CGPA (NIT)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PROFESSIONAL SUMMARY ═══════════════ -->
+  <section id="summary">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-tag">About Me</p>
+        <h2 class="section-title">Professional <span>Summary</span></h2>
+      </div>
+      <div class="summary-card reveal reveal-delay-2">
+        <p class="summary-text">
+          Software Engineer with <strong>5+ years</strong> of experience building distributed backend systems and production-grade
+          <strong>LLM and agentic AI platforms</strong> across Azure, GCP, and OpenShift environments. Deep expertise in
+          <strong>agent orchestration, retrieval-augmented generation (RAG), vector search, event-driven architectures,</strong>
+          and <strong>high-throughput microservices</strong>. Proven track record delivering enterprise AI systems operating on
+          real financial and operational data with strong emphasis on
+          <strong>reliability, evaluation, monitoring, and safety guardrails</strong>.
+        </p>
+        <div class="summary-pills">
+          <span class="pill pill-blue">LLM Platforms</span>
+          <span class="pill pill-violet">Agent Orchestration</span>
+          <span class="pill pill-cyan">RAG Pipelines</span>
+          <span class="pill pill-blue">Distributed Systems</span>
+          <span class="pill pill-violet">Vector Search</span>
+          <span class="pill pill-cyan">Event-Driven Arch.</span>
+          <span class="pill pill-blue">Azure / GCP</span>
+          <span class="pill pill-violet">Microservices</span>
+          <span class="pill pill-cyan">Production AI</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ EXPERIENCE ═══════════════ -->
+  <section id="experience">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-tag">Career Journey</p>
+        <h2 class="section-title">Work <span>Experience</span></h2>
+        <p class="section-desc">A journey from data engineering to leading agentic AI systems at enterprise scale.</p>
+      </div>
+
+      <div class="timeline">
+
+        <!-- Thoughtworks -->
+        <div class="timeline-item reveal reveal-delay-1">
+          <div class="timeline-dot"></div>
+          <div class="job-card">
+            <div class="job-header">
+              <div class="job-company">Thoughtworks Technologies</div>
+              <span class="job-period">Jan 2025 – Present</span>
+            </div>
+            <div class="job-meta">
+              <span class="job-role">Senior Consultant – Developer</span>
+              <span class="job-location">Bangalore, Karnataka, India</span>
+            </div>
+            <ul class="job-projects">
+              <li class="job-project">
+                <div class="job-project-title">⚙️ Agentic Microservice Platform Templates</div>
+                <div class="job-project-desc">Developed reusable Python microservice and orchestration templates supporting tool-calling workflows, schema validation, evaluation hooks, and observability instrumentation to standardize enterprise agentic AI service development.</div>
+              </li>
+              <li class="job-project">
+                <div class="job-project-title">🚀 High-Throughput Distributed Service Prototypes</div>
+                <div class="job-project-desc">Designed distributed backend prototypes including URL shortener and asynchronous order processing systems using Redis, PostgreSQL, containerized deployments, retry handling, idempotency checks, and dead-letter queues to validate scalable distributed system patterns.</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bosch -->
+        <div class="timeline-item reveal reveal-delay-2">
+          <div class="timeline-dot"></div>
+          <div class="job-card">
+            <div class="job-header">
+              <div class="job-company">Bosch Global Software Technologies</div>
+              <span class="job-period">Apr 2023 – Dec 2025</span>
+            </div>
+            <div class="job-meta">
+              <span class="job-role">Lead Engineer</span>
+              <span class="job-location">Bangalore, Karnataka, India</span>
+            </div>
+            <ul class="job-projects">
+              <li class="job-project">
+                <div class="job-project-title">🤖 Agentic AI Contract Comparison Platform</div>
+                <div class="job-project-desc">Built a production-grade agentic validation system using Google ADK, CrewAI orchestration patterns, and Qdrant vector database to perform invoice-contract matching across large enterprise repositories, reducing manual validation effort by <strong>75%</strong>.</div>
+              </li>
+              <li class="job-project">
+                <div class="job-project-title">📚 Enterprise RAG Knowledge Assistant</div>
+                <div class="job-project-desc">Led development of an enterprise knowledge assistant using Azure AI Search and Azure OpenAI, building distributed ingestion pipelines, vector indexing workflows, evaluation checks, and monitoring dashboards enabling automation of <strong>95% internal documentation queries</strong>.</div>
+              </li>
+              <li class="job-project">
+                <div class="job-project-title">📄 AI-Powered Invoice Management Platform</div>
+                <div class="job-project-desc">Designed containerized REST APIs and MCP server deployed on OpenShift supporting high-volume invoice search and validation workflows with autoscaling microservices, optimized indexing, and low-latency retrieval APIs improving response time by <strong>40%</strong>.</div>
+              </li>
+              <li class="job-project">
+                <div class="job-project-title">🧠 LLM Summarization and Decision Support APIs</div>
+                <div class="job-project-desc">Developed autoscaling serverless summarization and decision-support APIs using Azure Functions and Azure OpenAI with queue-based processing, reliability controls, and evaluation pipelines supporting high-concurrency enterprise workloads.</div>
+              </li>
+              <li class="job-project">
+                <div class="job-project-title">📈 Event-Driven Pricing Prediction Platform</div>
+                <div class="job-project-desc">Architected a streaming ML pricing recommendation platform on GCP leveraging Pub/Sub ingestion, autoscaling Cloud Functions, and API Gateway, generating supplier discount recommendations and delivering <strong>15% procurement cost savings</strong>.</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- LTIMindtree -->
+        <div class="timeline-item reveal reveal-delay-3">
+          <div class="timeline-dot"></div>
+          <div class="job-card">
+            <div class="job-header">
+              <div class="job-company">LTIMindtree</div>
+              <span class="job-period">Jul 2020 – Mar 2023</span>
+            </div>
+            <div class="job-meta">
+              <span class="job-role">Senior Data Engineer</span>
+              <span class="job-location">Bengaluru, Karnataka, India</span>
+            </div>
+            <ul class="job-projects">
+              <li class="job-project">
+                <div class="job-project-title">🗄️ Large-Scale Data Engineering Pipelines</div>
+                <div class="job-project-desc">Developed scalable ADF pipelines integrating 150+ SAP and SQL Server datasets with automated validation frameworks, monitoring systems, and warehouse optimization improving data reliability and pipeline uptime by <strong>50%</strong>.</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ SKILLS ═══════════════ -->
+  <section id="skills">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-tag">Technical Arsenal</p>
+        <h2 class="section-title">Skills & <span>Technologies</span></h2>
+        <p class="section-desc">A broad and deep skill set spanning AI, distributed systems, cloud infrastructure, and engineering best practices.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group reveal reveal-delay-1">
+          <div class="skill-group-header">
+            <div class="skill-group-icon" style="background:rgba(99,179,237,0.12);border:1px solid rgba(99,179,237,0.25)">💻</div>
+            <span class="skill-group-title">Languages</span>
+          </div>
+          <div class="skill-badges">
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">Java</span>
+            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">TypeScript</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal reveal-delay-2">
+          <div class="skill-group-header">
+            <div class="skill-group-icon" style="background:rgba(159,122,234,0.12);border:1px solid rgba(159,122,234,0.25)">⚡</div>
+            <span class="skill-group-title">Backend & Distributed Systems</span>
+          </div>
+          <div class="skill-badges">
+            <span class="skill-badge">Microservices</span>
+            <span class="skill-badge">Event-Driven</span>
+            <span class="skill-badge">REST</span>
+            <span class="skill-badge">gRPC</span>
+            <span class="skill-badge">Redis</span>
+            <span class="skill-badge">PostgreSQL</span>
+            <span class="skill-badge">Async Processing</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal reveal-delay-3">
+          <div class="skill-group-header">
+            <div class="skill-group-icon" style="background:rgba(79,209,197,0.12);border:1px solid rgba(79,209,197,0.25)">🤖</div>
+            <span class="skill-group-title">Agentic AI & LLM Systems</span>
+          </div>
+          <div class="skill-badges">
+            <span class="skill-badge">CrewAI</span>
+            <span class="skill-badge">Google ADK</span>
+            <span class="skill-badge">RAG Pipelines</span>
+            <span class="skill-badge">Qdrant</span>
+            <span class="skill-badge">Azure OpenAI</span>
+            <span class="skill-badge">Vector Search</span>
+            <span class="skill-badge">Structured Outputs</span>
+            <span class="skill-badge">Guardrails</span>
+            <span class="skill-badge">Eval Pipelines</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal reveal-delay-4">
+          <div class="skill-group-header">
+            <div class="skill-group-icon" style="background:rgba(246,135,179,0.12);border:1px solid rgba(246,135,179,0.25)">☁️</div>
+            <span class="skill-group-title">Cloud Platforms</span>
+          </div>
+          <div class="skill-badges">
+            <span class="skill-badge">GCP Pub/Sub</span>
+            <span class="skill-badge">Cloud Functions</span>
+            <span class="skill-badge">Cloud Run</span>
+            <span class="skill-badge">Azure OpenAI</span>
+            <span class="skill-badge">Azure AI Search</span>
+            <span class="skill-badge">Azure Functions</span>
+            <span class="skill-badge">OpenShift</span>
+            <span class="skill-badge">Kubernetes</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal reveal-delay-5">
+          <div class="skill-group-header">
+            <div class="skill-group-icon" style="background:rgba(99,179,237,0.12);border:1px solid rgba(99,179,237,0.25)">🛠️</div>
+            <span class="skill-group-title">DevOps & Engineering</span>
+          </div>
+          <div class="skill-badges">
+            <span class="skill-badge">Docker</span>
+            <span class="skill-badge">CI/CD</span>
+            <span class="skill-badge">Azure DevOps</span>
+            <span class="skill-badge">Jenkins</span>
+            <span class="skill-badge">Observability</span>
+            <span class="skill-badge">API Monitoring</span>
+            <span class="skill-badge">TDD</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal reveal-delay-5">
+          <div class="skill-group-header">
+            <div class="skill-group-icon" style="background:rgba(159,122,234,0.12);border:1px solid rgba(159,122,234,0.25)">📊</div>
+            <span class="skill-group-title">Data Engineering</span>
+          </div>
+          <div class="skill-badges">
+            <span class="skill-badge">Azure Data Factory</span>
+            <span class="skill-badge">SAP Integration</span>
+            <span class="skill-badge">Data Pipelines</span>
+            <span class="skill-badge">Warehouse Optimization</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ EDUCATION ═══════════════ -->
+  <section id="education">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-tag">Academic Background</p>
+        <h2 class="section-title">Edu<span>cation</span></h2>
+      </div>
+      <div class="edu-card reveal reveal-delay-2">
+        <div class="edu-icon">🎓</div>
+        <div>
+          <div class="edu-school">National Institute of Technology Patna</div>
+          <div class="edu-degree">B.Tech in Electrical Engineering</div>
+          <div class="edu-meta">
+            <span class="edu-meta-item">📍 Bihar, India</span>
+            <span class="edu-meta-item">📅 Aug 2016 – May 2020</span>
+          </div>
+          <span class="edu-cgpa">CGPA: 8.51 / 10</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ AWARDS ═══════════════ -->
+  <section id="awards">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-tag">Recognition</p>
+        <h2 class="section-title">Awards & <span>Achievements</span></h2>
+      </div>
+      <div class="award-card reveal reveal-delay-2">
+        <div class="award-icon">🏆</div>
+        <div>
+          <div class="award-name"><span>Hackett Innovation Award 2025</span></div>
+          <div class="award-desc">Recognized for Agentic AI solution innovation — awarded for pioneering work in building production-grade agentic contract comparison and validation platforms that significantly reduced enterprise manual effort.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT ═══════════════ -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="reveal">
+          <p class="section-tag">Let's Connect</p>
+          <h2 class="section-title">Get In <span>Touch</span></h2>
+          <p class="section-desc" style="margin:0 auto 0 auto;text-align:center">Open to senior engineering roles, AI/ML platform opportunities, and interesting technical conversations.</p>
+        </div>
+        <div class="contact-links reveal reveal-delay-2">
+          <a href="mailto:ranjanashish855@gmail.com" class="contact-link">
+            <span class="contact-link-icon">✉️</span>
+            ranjanashish855@gmail.com
+          </a>
+          <a href="tel:+918210330451" class="contact-link">
+            <span class="contact-link-icon">📱</span>
+            +91-8210330451
+          </a>
+          <a href="https://www.linkedin.com/in/ranjan855/" target="_blank" class="contact-link">
+            <span class="contact-link-icon">🔗</span>
+            linkedin.com/in/ranjan855
+          </a>
+          <a href="https://github.com/AshishRanjan5" target="_blank" class="contact-link">
+            <span class="contact-link-icon">💻</span>
+            github.com/AshishRanjan5
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer>
+    <div class="container">
+      <p class="footer-text">
+        Built with <span>♥</span> by Ashish Ranjan · 2026 · All rights reserved
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
